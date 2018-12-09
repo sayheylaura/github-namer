@@ -2,6 +2,8 @@
 
 This is an exercise for the second sprint in [Adalab](https://adalab.es/). The main goal of this exercise was to practice JavaScript and AJAX requests.
 
+There's a search form where you can write a GitHub username, and the page will return the user's real first name! :)
+
 ## How to use this repository
 
 If you ever want to contribute to this project, you'll need to install [Node.js](https://nodejs.org/) and [Gulp](https://gulpjs.com), then:
