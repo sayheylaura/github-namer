@@ -38,7 +38,7 @@ function handleBtnClick (event) {
 
         nameListEl.innerHTML = nameListContent;
     })
-    .catch(error => console.log(`Ha sucedido un error: ${error}`));
+    .catch(error => console.log(`An error has occurred: ${error}`));
 }
 
 submitBtnEl.addEventListener('click', handleBtnClick);
