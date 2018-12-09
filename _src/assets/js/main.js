@@ -1,6 +1,6 @@
 'use strict';
 
-const userSearchEl = document.querySelector('.user-nickname');
+const userSearchEl = document.querySelector('.user-nickname__input');
 
 const submitBtnEl = document.querySelector('.submit-btn');
 
