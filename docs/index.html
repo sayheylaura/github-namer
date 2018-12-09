@@ -6,15 +6,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>GitHub Namer</title>
+        <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700|Shadows+Into+Light"
+        rel="stylesheet">
         <link rel="stylesheet" href="assets/css/main.css">
     </head>
     
     <body>
         <main class="main">
             <form action="" method="post" class="user-search">
-                <label for="user-nickname">Write a GitHub user's nickname</label>
-                <input type="text" name="user-nickname"
-                id="user-nickname" class="user-nickname">
+                <div class="search-bar__container">
+                    <label class="user-nickname__label" for="user-nickname">Write a GitHub user's nickname</label>
+                    <input type="text" name="user-nickname"
+                    id="user-nickname" class="user-nickname">
+                </div>
                 <input type="submit" value="Search" class="submit-btn">
             </form>
             <ol class="name-list"></ol>

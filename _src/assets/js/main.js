@@ -33,7 +33,7 @@ function handleBtnClick (event) {
         let nameListContent = '';
 
         for (let i = 0; i < userFirstNameArr.length; i++) {
-            nameListContent += `<li>${userFirstNameArr[i]}</li>`;
+            nameListContent += `<li class="list-item">${userFirstNameArr[i]}</li>`;
         }
 
         nameListEl.innerHTML = nameListContent;
