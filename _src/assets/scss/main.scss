@@ -53,7 +53,11 @@ body {
 .name-list {
 	margin-top: 150px;
 	padding: 0;
-    list-style: none;
+	list-style: none;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #ec6b14;
     display: flex;
     justify-content: center;
 }
@@ -64,7 +68,6 @@ body {
 	margin: 0 10px;
 	border-radius: 50%;
 	background-color: white;
-	color: #ec6b14;
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 60px;
 	font-weight: 600;
