@@ -1,4 +1,4 @@
-# Exercise to practice JavaScript & AJAX requests
+# GitHub namer
 
 This is an exercise for the second sprint in [Adalab](https://adalab.es/). The main goal of this exercise was to practice JavaScript and AJAX requests.
 
